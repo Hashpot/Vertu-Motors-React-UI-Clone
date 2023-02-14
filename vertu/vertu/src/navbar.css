@@ -1,0 +1,140 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+li {
+  list-style: none;
+
+}.nav__link{
+color: black;
+text-decoration: none;
+font-weight: bold;
+font-size: 13px;
+position: relative;
+right: 1cm ;
+}
+
+.findus{
+  position: relative;
+  left: px;
+  font-weight: bold;
+}
+
+
+.save{
+  position: relative;
+  left: 7px;
+  font-weight: bold;
+}
+
+.login{
+  position: relative;
+  left: 4px;
+  font-weight: bold;
+}
+
+.logo{
+  height:100px; 
+  width:200px;
+  position: relative;
+  bottom: 1.5rem;
+}
+
+.location{
+  height: 3em;
+  width: 3.5rem; 
+}
+.lilnav{
+position: relative;
+right: 2%;
+bottom: 5%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 9vh;
+  background: rgb(255, 255, 255);
+}
+.nav__brand {
+  text-transform: uppercase;
+}
+
+
+.nav__menu {
+  display: flex;
+  float: left;
+  justify-content: space-around;
+  gap: 6rem;
+}
+.nav__toggler {
+  display: none;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(204, 204, 204);
+  transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+  }
+  .nav__menu {
+    position: fixed;
+  
+    top: 7vh;
+    right: 0;
+    height: 93vh;
+    width: 50vw;
+    background: rgb(0, 33, 65);
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
+}
+/* Active Class */
+.nav__active {
+  transform: translateX(0%);
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+  position: relative;
+  left: 0.5rem;
+  bottom: 2px;
+ 
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  
+}

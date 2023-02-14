@@ -1,0 +1,19 @@
+input[type = "text"]{
+    width: 6.5cm;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    height: 3.5rem;
+    position: relative;
+    right: 0.5cm;
+    bottom: 1rem; 
+    text-align: center;
+
+}
+
+.border{
+    padding-left: 2rem;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 15px;
+    background-position: 1rem 1.1rem ;
+}
+

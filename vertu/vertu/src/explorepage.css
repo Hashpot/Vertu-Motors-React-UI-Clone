@@ -1,0 +1,47 @@
+.greybox{
+    background-color: #ededed;
+    margin-top: 50px;
+    height: 450px;
+}
+
+.text-on-image {
+    padding-top: 2%;
+}
+
+
+.third{
+    width: 40%;
+    border-radius: 10px;
+    height: 40%;
+    position: relative;
+    left: 7.5in;
+    top: 2cm;
+}
+
+.text1{
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+
+.text2{
+    font-weight: normal;
+    font-size: 15px;
+    color: grey;
+}
+
+.request{
+    margin-top: 20px;
+    font-size: 10px;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    padding: 10px;
+    background-color: #00E2C9;
+    text-decoration: none;
+    display: inline-block;
+    width: 20%;
+    cursor: pointer;
+    text-align: center;
+}

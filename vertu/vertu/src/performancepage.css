@@ -1,0 +1,89 @@
+.blackbox{
+    background-color: #222222;
+    height: 400px;
+}
+
+.performancetext{
+ text-align: left;
+ position:absolute;
+ top: 4rem;
+ right: 2in;
+
+}
+
+.fourth{
+    width: 40%;
+    border-radius: 10px;
+    height: 40%;
+    position: relative;
+    left: 3.5cm;
+    top: 1cm;
+}
+
+.text1performance{
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+
+.text2performance{
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+.test-drive{
+    margin-top: 20px;
+    font-size: 10px;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    padding: 10px;
+    background-color: #00E2C9;
+    text-decoration: none;
+    display: inline-block;
+    width: 30%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+   
+    
+}
+
+.flex-child {
+    flex: 1;
+    
+    
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
+.hrtext{
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+}
+.numbertext{
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.electric{
+    color: white;
+    font-size: 15px;
+}
+
+.charging{
+    color: white;
+    font-size: 15px;
+}
